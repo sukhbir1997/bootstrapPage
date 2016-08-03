@@ -1,0 +1,233 @@
+body{
+	font-family:  'Signika Negative', sans-serif;
+}
+/*=================nabar*/
+.navbar-default{
+	background-color:transparent;
+	border-color: transparent;
+}
+
+.navbar-nav{
+	font-family: 'Signika Negative', sans-serif;
+	margin:35px 100px 0 ;
+}
+
+.navbar-default .navbar-nav li a {
+	color:#fff;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color:#16a085;
+}
+
+.logo img{
+	margin:25px 0 0 100px;
+}
+
+/*=============================media qeuries*/
+@media(max-width:768px){
+	.logo img{
+		margin:15px 0 0 15px;
+	}
+
+	.navbar-nav{
+		margin:0;
+		background-color:rgba(0,0,0,0.7);
+	}
+
+	.navbar-toggle{
+		margin-top:35px;
+	}
+
+	#design{
+		text-align: center;
+	}
+
+	#community .image{
+		padding-bottom: 15px;
+	}
+
+	#footer{
+		text-align: center;
+	}
+
+	#footer img{
+		padding-right:80px;
+	}
+}
+
+/*================slider*/
+#slider{
+	background: url(../img/back.jpg);
+	width:100%;
+	background-size:cover;
+}
+
+.item{
+	color:#fff;
+	padding:200px 0;
+}
+
+.item h1{
+	font-size:2.8em;
+}
+
+.carousel-indicators li {
+	background-color: #fff;
+	margin:5px;
+}
+
+.carousel-indicators .active{
+	background-color: #16a085;
+	border:1px solid #16a085;
+	margin:5px;
+}
+
+.btn-success{
+	background-color: #16a085;
+	border-color:#16a085;
+	font-size: 0.8em;
+	padding:10px 20px;
+	margin:15px 0;
+}
+
+.btn-success:hover{
+	background: #000;
+}
+
+.btn-success:focus .btn-success:active:focus{
+	background-color: #16a085;
+}
+
+/*===============phto=*/
+
+#photo{
+	background-color: #f5f6f7;
+	padding:80px 0;
+	text-align: center;
+}
+
+#photo h1{
+	font-size: 1.2em;
+	font-weight: 700;
+	color:#16a085;
+}
+
+#photo .fa{
+	color:#16a085;
+}
+
+#photo .fa:hover{
+	color:#0e6655;
+}
+
+
+/*=============design*/
+#design{
+	padding: 80px 0;
+}
+
+#design h1{
+	font-size:1.5em;
+	font-weight: 700;
+	color:#16a085;
+	padding-top: 55px;
+}
+
+.img-responsive{
+	height:450px;
+}
+
+
+/*================*community*/
+#community{
+	background-color: #f5f6f7;
+	padding:80px 0;
+}
+
+#community h1{
+	font-size: 1.5em;
+	font-weight: 700;
+	color:#16a085;
+}
+
+#community .green{
+	padding-top: 30px;
+}
+
+.image-responsive-3{
+	height:244px;
+	width: 370px;
+}
+
+/*============sign up*/
+
+#signup{
+	background:url(https://images.unsplash.com/photo-1465080298426-c19339a41ddf?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0a9db6dd3480b1a106b006a7238e7719);
+	width: 100%;
+	background-size: cover;
+	padding:300px 0;
+}
+
+#signup h1{
+	font-size:1.5em;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+}
+
+#signup .btn-default{
+	background-color: #16a085;
+	border:#16a085;
+}
+
+#signup .btn-default:hover{
+	background-color: #000;
+	border:#000;
+}
+
+#signup .fa{
+	color: white;
+}
+
+/*================*/
+.dwd{
+	background-color: #16a085;
+}
+
+#download{
+	background-color: #f5f6f7;
+	padding:80px 0;
+	text-align: center;
+}
+
+
+#download h1{
+	font-size:1.5em;
+	font-weight: 700;
+	color:#16a085;
+}
+
+#download button{
+	margin-top:15px;
+	margin-left:10px;
+}
+/*==========*/
+
+#footer{
+	padding:50px 0;
+}
+
+#footer p{
+	font-weight:700;
+}
+
+#footer a{
+	color:#000;
+}
+
+#footer a:hover{
+	color:#16a085;
+	text-decoration: none;
+}
+
