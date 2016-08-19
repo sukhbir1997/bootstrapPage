@@ -4,10 +4,15 @@
 Bootstrap Theme App
 
 *Bootstrap components
+
 *Grid System & Media Queries
+
 *Custom fonts
+
 *Working carousel
+
 *Font-Awesome icons
+
 *Animate CSS & WOW js
 
 
